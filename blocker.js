@@ -1,5 +1,5 @@
 (async function() {
-  const allowedDiscounts = ["WELCOME10", "SUMMER20", "CARA15", "ALO15"];
+  const allowedDiscounts = ["WELCOME10", "SUMMER20", "CARA15"];
   let detectedExtensions = [];
   const isDebugMode = true
   setInterval(() => {
