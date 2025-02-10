@@ -33,7 +33,7 @@
     "start": "webpack serve --mode=development",
     "build": "webpack --mode=production --progress",
     "view": "npm run build && serve dist",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -f"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
